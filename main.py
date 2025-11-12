@@ -25,11 +25,11 @@ from error_handler import BotErrorHandler
 from health_check import HealthCheckServer
 from order_handlers import OrderHandlers
 from notification_service import NotificationService
-from logging_config import setup_logging, get_logger_with_context, log_user_action
+from logging_config import setup_structured_logging, log_user_interaction, log_bot_error
 from webhook_handler import WebhookHandler
 
 # Setup enhanced logging
-setup_logging()
+setup_structured_logging()
 logger = logging.getLogger(__name__)
 
 

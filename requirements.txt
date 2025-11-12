@@ -1,0 +1,15 @@
+python-telegram-bot==20.7
+aiohttp==3.9.1
+aiofiles==23.2.1
+pydantic>=2.8.0
+pydantic-settings>=2.4.0
+python-dotenv==1.0.0
+pytest>=7.0.0
+pytest-asyncio>=0.21.0
+# Production dependencies
+gunicorn==21.2.0
+uvloop==0.19.0
+# Logging and monitoring
+structlog==23.2.0
+# Signal handling
+psutil==5.9.6
